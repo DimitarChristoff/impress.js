@@ -278,7 +278,8 @@ a:focus {
 }
 
 #title .footnote {
-    font-size: 32px;
+    font-size: 22px;
+    line-height: 30px;
 }
 
 /*
@@ -287,6 +288,29 @@ a:focus {
     
     Let's move to 'big thoughts' with centered text and custom font sizes.
 */
+h1 {
+    font-weight: bold;
+}
+
+
+ol {
+    margin-left: 1em;
+}
+ol li {
+    list-style-type: disc;
+}
+
+#welcome {
+    text-align: center;
+}
+
+#mootools {
+    background-image: url(http://fragged.org/images/mootools-logo-640.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+
 #big {
     width: 600px;
     text-align: center;
@@ -493,7 +517,6 @@ a:focus {
 
 #its-in-3d .footnote {
     font-size: 32px;
-
     -webkit-transform: translateZ(-10px);
     -moz-transform:    translateZ(-10px);
     -ms-transform:     translateZ(-10px);
@@ -633,7 +656,7 @@ a:focus {
 /*
     ... and we will show it when the first step (with id 'bored') is active.
 */
-.impress-on-bored .hint {
+.impress-on-welcome .hint {
     /*
         We remove the transparency and position the hint in its default fixed
         position.
