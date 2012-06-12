@@ -311,6 +311,12 @@ ol li {
 }
 
 
+#what-next span {
+    font-size: .5em ;
+    color: #666;
+    text-shadow: 1px 1px 1px #000;
+}
+
 #big {
     width: 600px;
     text-align: center;
